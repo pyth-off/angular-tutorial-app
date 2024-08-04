@@ -13,4 +13,4 @@ services:
       - "4200"
     ports: # use if it is necessary to expose the container to the host machine
       - "4200:4200"
-    command: "npm start"
+    command: "npm start -- --host 0.0.0.0"
